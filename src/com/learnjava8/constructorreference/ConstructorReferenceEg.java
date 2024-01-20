@@ -14,6 +14,6 @@ public class ConstructorReferenceEg {
         Function<String,Student> newStu = Student::new; // Created a new object which takes
 //  Note upar ek input parameter h. Therefore, we must have a parameterized constructor with one parameter in that mentioned class (here in Student Class).
         System.out.println(newStu.apply("champak"));
-
+    
     }
 }
