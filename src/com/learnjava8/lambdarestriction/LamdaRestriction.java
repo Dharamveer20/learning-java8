@@ -16,6 +16,5 @@ public class LamdaRestriction {
             z++; // chalega
             System.out.println(i);
         };
-
     }
 }
